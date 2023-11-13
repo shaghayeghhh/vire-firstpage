@@ -1,0 +1,461 @@
+@font-face {
+    font-family: vira;
+    src: url("../font/IRANSansWeb(FaNum).ttf");
+}
+
+@font-face {
+    font-family: vira-bold;
+    src: url("../font/IRANSansWeb(FaNum)_Bold.ttf");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+#basicBox {
+    display: block;
+    justify-content: center;
+}
+
+#section1 {
+    background-image: url("../img/site-03.png");
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    height: 1500px;
+}
+
+
+#nav {
+    height: 50px;
+    background-color: transparent;
+    justify-content: space-between;
+    display: flex;
+    padding: 35px 40px;
+    margin: auto;
+    width: 90%;
+}
+
+#nav .title {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#nav p {
+    padding: 0PX 35px;
+    margin: 0px;
+    font-family: vira;
+    font-weight: bold;
+    font-size: 18px;
+    transition: ease-in-out 0.3s;
+}
+
+#nav p:hover {
+    transform: translate(0, 9px);
+
+}
+#nav .LeftTitle{
+    margin: 0px;
+    padding: 0px;
+}
+.LeftTitle p {
+    color: #5b1010;
+}
+
+.poster {
+    background-image: url("../img/poster-01-01.png");
+    width: 60%;
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px 400px 50px 300px;
+    justify-content: left;
+    position: relative
+}
+
+#vira {
+    position: absolute;
+    top: 10px;
+    right: -185px;
+    font-family: vira;
+    font-weight: bold;
+    text-shadow: 7px 7px 15px rgb(0 0 0 / 55%);
+}
+
+.poster #Titr1 {
+    margin: 0px;
+    font-size: 40px;
+}
+
+.poster #Titr2 {
+    font-size: 100px;
+    margin: 0px;
+}
+
+#aboutUs {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+.box {
+    width: 50%;
+    min-height: 250px;
+    border-radius: 25px;
+    background-color: rgba(220, 220, 220, 0.7);
+    padding: 0px;
+    justify-content: center;
+    margin: 100px auto;
+    box-shadow: 0px 0px 25px rgb(49 49 49 / 25%);
+    text-align: center;
+}
+
+#aboutUs .box .boxText {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 15px 0px;
+    font-family: vira-bold;
+    font-size: 26px;
+    width:100%;
+    text-align: center;
+}
+
+#aboutUs .box p {
+    font-family: vira;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0px;
+    line-height: 2.1;
+}
+
+#Services {
+    width: 100%;
+    background-color: #E8E8E8;
+    margin: 0px;
+    overflow: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 0px;
+    box-shadow: 0px 0px 50px rgb(49 49 49 / 30%);
+    z-index: 1;
+
+}
+
+.ServicesBox {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.BoxWrapper {
+    width: 350px;
+    height: 200px;
+    border: 14px solid rgba(220, 220, 220, 0.7);
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgb(49 49 49 / 15%), -10px -10px 20px rgb(255, 254, 254, 0.65), inset 7px 7px 25px rgb(49 49 49 / 10%), inset -25px -25px 25px rgba(255, 254, 254, 0.45);
+    padding: 0px;
+    margin: 0px 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+.BoxWrapper h3 {
+    font-family: vira-bold;
+    font-size: 20px;
+    color: #5b1010;
+    margin: 30px 0px 0px 0px;
+}
+
+.BoxWrapper p {
+    margin: 35px;
+    font-family: vira;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#section2 {
+    background-image: url("../img/site-03.png");
+    background-size: cover;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+    z-index: -1;
+}
+
+#section2 .value {
+    width: 48%;
+    min-height: 220px;
+    border-radius: 25px;
+    background-color: rgba(220, 220, 220, 0.7);
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 100px auto;
+    box-shadow: 0px 0px 25px rgb(49 49 49 / 25%);
+}
+
+#section2 .value .line {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 50px auto 0px auto;
+}
+
+#section2 .value .line2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0px auto 50px auto;
+}
+
+#section2 .value .line .lineBox {
+    width: 50%;
+    height: 150px;
+    border-bottom: #5b1010 solid 2.5px;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+}
+
+.lineBox, h3 {
+    font-family: vira-bold;
+    font-size: 20px;
+    color: #5b1010;
+    margin: auto 20px;
+}
+
+#section2 .value .line2 .lineBox2 {
+    width: 50%;
+    height: 150px;
+    border-top: #5b1010 solid 2.5px;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+}
+
+.lineBox2 h3 {
+    font-family: vira-bold;
+    font-size: 20px;
+    color: #5b1010;
+    margin: auto 20px;
+}
+
+#jobs {
+    width: 100%;
+    background-color: #E8E8E8;
+    margin: 0px;
+    overflow: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 0px;
+    box-shadow: 0px 0px 50px rgb(49 49 49 / 30%);
+    z-index: 1;
+
+}
+
+.JobsLine {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.JobsLine button {
+    width: 400px;
+    height: 70px;
+    border: 12px solid rgba(220, 220, 220, 0.7);
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgb(49 49 49 / 15%), -10px -10px 20px rgb(255, 254, 254, 0.65), inset 7px 7px 25px rgb(49 49 49 / 10%), inset -25px -25px 25px rgba(255, 254, 254, 0.45);
+    margin: 25px;
+    text-align: center;
+    outline: none;
+}
+.JobsLine button h3,a{
+    font-family: vira-bold;
+    font-size: 18px;
+    color: #5b1010;
+    margin:auto 0px;
+    padding: 0px;
+}
+#section3 {
+    background-image: url("../img/site-03.png");
+    background-size: cover;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+    justify-content: center;
+    text-align: center;
+    z-index: -1;
+}
+
+.ContactUs {
+    width: 48%;
+    min-height: 220px;
+    border-radius: 25px;
+    background-color: rgba(220, 220, 220, 0.7);
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 100px auto;
+    box-shadow: 0px 0px 25px rgb(49 49 49 / 25%);
+}
+
+.ContactUs .ContactBox {
+    display: flex;
+    justify-content: center;
+}
+
+.ContactUs .ContactBox .left {
+    width: 50%;
+    justify-content: center;
+}
+
+.ContactUs .ContactBox .left input {
+    width: 300px;
+    height: 35px;
+    border: 8px solid rgba(220, 220, 220, 0.7);
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px rgb(49 49 49 / 15%), -10px -10px 20px rgb(255, 254, 254, 0.65), inset 7px 7px 25px rgb(49 49 49 / 10%), inset -25px -25px 25px rgba(255, 254, 254, 0.45);
+    padding: 0px;
+    margin: 15px;
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+}
+.email{
+    display:flex ;
+    justify-content: center;
+}
+.ContactUs .ContactBox .text {
+    display: flex;
+    justify-content: center;}
+
+.ContactUs .ContactBox .left textarea {
+    border-radius: 25px;
+    border: none;
+    resize: none;
+    background-color: rgba(220, 220, 220, 0.7);
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    box-shadow: 0px 0px 25px rgb(49 49 49 / 25%);
+    outline: none;
+}
+
+.ContactUs .ContactBox .left label {
+    font-family: vira;
+    font-size: 16px;
+    color: #000000;
+    margin: auto 20px;
+}
+
+.ContactUs .ContactBox .right {
+    width: 50%;
+    color: black;
+    border-left: 4px solid #5b1010;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 8px;
+}
+
+#section3 .ContactUs .ContactBox .right p {
+    width: 95%;
+    font-family: vira;
+    font-size: 16px;
+    margin: auto;
+    padding: 8px 0px;
+    text-align: right;
+}
+
+#section3 p {
+    font-family: vira;
+    font-size: 12px;
+    color: #5b1010;
+}
+
+@media only screen and (max-device-width: 1500px)  {
+
+    .poster {
+        width: 60%;
+        height: 700px;
+        background-size: contain;
+        margin: 50px 200px 0px 150px;
+    }
+
+    #aboutUs .box .boxText {
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-device-width: 700px)  {
+    #section1 {
+        height: 1100px;
+    }
+    .poster {
+        width: 100%;
+        background-image: url("../img/poster-01-01.png");
+        height: 380px;
+        margin: 30px 20px 30px 50px;
+        justify-content: left;
+    }
+    #vira {
+        position: absolute;
+        top: 5px;
+        right: 180px;
+    }
+    .poster #Titr1 {
+        margin: 0px;
+        font-size: 20px;
+        width: fit-content;
+
+    }
+    .poster #Titr2 {
+        font-size: 70px;
+        margin: 0px;
+    }
+
+    .box {
+        width: 700px;
+    }
+
+    #aboutUs .box .boxText {
+        width: 80%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-device-width: 300px)  {
+
+       .poster {
+           background-image: url("../img/poster-01-01.png");
+           height: 300px;
+           margin: 30px 20px 30px 10px;
+           justify-content: left;
+       }
+
+
+   }
